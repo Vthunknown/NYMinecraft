@@ -3,3 +3,18 @@ hash-format = "sha256"
 [[files]]
 file = "README.md"
 hash = "d55a41b054287c43983cd42a137eb270c9142801a23fc7c0a47c3baee25bf325"
+
+[[files]]
+file = "mods/create.pw.toml"
+hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "12f93c961f4f82c5613f934c75e0ac954a4ae4682338d9fda4341607efd7a506"
+metafile = true
+
+[[files]]
+file = "mods/mezzconfig.pw.toml"
+hash = "f6ade1289572e8127ba1a69cc3b4e471cf9079eba17f0ea8ab5742d5f94519ca"
+metafile = true
