@@ -1,0 +1,13 @@
+name = "TaCZ addon"
+filename = "taczaddon-1.1.8.2-fix-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3Ihyt5WL/versions/u3luODNG/taczaddon-1.1.8.2-fix-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "2b5473c7860e74c1e5bc0f4e8c1cfb989e3fbe7c2a67b98ef684d24b6c9b0008de9f7ef1533c3f954ac9bd6a485d55becc4d15568820c35a1e2f3b8fdf669af4"
+
+[update]
+[update.modrinth]
+mod-id = "3Ihyt5WL"
+version = "u3luODNG"

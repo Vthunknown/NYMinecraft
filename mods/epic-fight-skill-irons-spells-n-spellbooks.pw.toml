@@ -1,0 +1,13 @@
+name = "Epic Fight Skill - Iron's Spells 'n Spellbooks"
+filename = "efs_iss-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "24af46b91147b096713f8693e03fc70d240b5c03"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7644948
+project-id = 1454101

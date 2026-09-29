@@ -71,12 +71,17 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
+hash = "9d7971a7af2ff4a96a0e5aede76f9cf8dc978da601e2754f79d6ec8631125bb9"
 metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
 hash = "e6d1f36e9e0193fe410d136e0cda8a7f6dbbc809c0644f06a601bddf5b38a395"
+metafile = true
+
+[[files]]
+file = "mods/curios.pw.toml"
+hash = "55d77d596c2d805f28b47ea53725ccaa220d2857177cad3909e48d8c12b2a2cb"
 metafile = true
 
 [[files]]
@@ -87,6 +92,36 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "03783bea6895d8acf198ac7d8bce4f91746659d0954f7367d0029b11963edee0"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight-mod.pw.toml"
+hash = "cc04a459af3ff21b2aa09cde7ab562f33eb13c9d6d158c71d09cb4bc0bdee325"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight-skill-irons-spells-n-spellbooks.pw.toml"
+hash = "596b97070e318af4abacc9e8a3019c66783137b8410c0255abafdd3439a3094d"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight-skill-tacz.pw.toml"
+hash = "4e4ee342269491ab949ac01c8af19459ac2957bdfd5602696217788866b7c7dc"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight-skill-tree.pw.toml"
+hash = "4da632ae859a2983e1c16a561de7edfe8ed4740c246f405f381e5e46a59e7497"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight-x-irons-spells-enhanced-animation.pw.toml"
+hash = "721876f32b7910d9ffc11e04accc39db149f4d93323760d87370e679c624ae83"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight.pw.toml"
+hash = "01ad46d3f76d8355935ccee7e9f364961b455e5d217692356d8f03e99b811f47"
 metafile = true
 
 [[files]]
@@ -115,6 +150,11 @@ hash = "efda76423b21f9bfab4ad8d0411f0b06a199ab7e3e12ca16dc0586c1828b8f07"
 metafile = true
 
 [[files]]
+file = "mods/geckolib.pw.toml"
+hash = "898fd2704dd260ae8f3dc20b4416439751f0a9e76367c4f0bbdac886b6987802"
+metafile = true
+
+[[files]]
 file = "mods/guideme.pw.toml"
 hash = "7cbc557e23729a2ab1a0dfa8832359edb640a9c4b2f1919e7c43cd5c7ccfdf3c"
 metafile = true
@@ -122,6 +162,16 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "835bd8b05a05ce6c0981ddc37c49e4c476aa0414cc2a5321fd9f8994193b6feb"
+metafile = true
+
+[[files]]
+file = "mods/irons-lib.pw.toml"
+hash = "ee37dff97699f5d4584ac8f1475c1cfcda7f0b0294dab9a3da042c21026b17a1"
+metafile = true
+
+[[files]]
+file = "mods/irons-spells-n-spellbooks.pw.toml"
+hash = "dfa508b546489c22a8020b08ffbf587e4d795b4e34e571608eead8db445d66cd"
 metafile = true
 
 [[files]]
@@ -170,6 +220,11 @@ hash = "679fa8f3b49b9ed3fbcb29d6ccdb99bce465faa01f9cec000464ac8d4fbe134f"
 metafile = true
 
 [[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "b52622122c19a3894e62fc5506d7c3332d202504fd406d6718be646f979feb40"
+metafile = true
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "ea8571ba9dc8e74bad5e4257d50e9bb80d02be8f3d5de7fe3dede969e26fa15c"
 metafile = true
@@ -190,6 +245,16 @@ hash = "0be4976227df8e261fd362889bf8e85b93e224d1b1c3cd2a11b73a9de3b64083"
 metafile = true
 
 [[files]]
+file = "mods/tacz-create.pw.toml"
+hash = "e417ff955d6d43c4df74f7859be0dbddf406d33e67c643150b5befd60a2f09fc"
+metafile = true
+
+[[files]]
+file = "mods/taczaddon.pw.toml"
+hash = "94dec0fef99b993563fc2508cfd8b7f031ffb79586b26fe890507e173111af86"
+metafile = true
+
+[[files]]
 file = "mods/thermal-expansion.pw.toml"
 hash = "21ef66049ba994e620e34e2fab8e99ca27ceef5882f76dbd6c31afed66de89c4"
 metafile = true
@@ -202,6 +267,16 @@ metafile = true
 [[files]]
 file = "mods/thermal-integration.pw.toml"
 hash = "eac18d5d726f61bce8471d9113db5ec642db05b9bb0836a06b491ef97245ade2"
+metafile = true
+
+[[files]]
+file = "mods/tijons-epic-arsenal.pw.toml"
+hash = "6ecc2220846524391fde2447cee2f4c7c5e2d941df1a1fbc984f95a2de8a7fb5"
+metafile = true
+
+[[files]]
+file = "mods/timeless-and-classics-zero.pw.toml"
+hash = "733b8967d6f263e9cc7ca2f001067be6ed8e21c214d73afb4e7fb418fa3e4364"
 metafile = true
 
 [[files]]

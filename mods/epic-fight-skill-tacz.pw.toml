@@ -1,0 +1,13 @@
+name = "Epic Fight Skill - TacZ"
+filename = "efs_tacz-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c92fcd30ad391bc0b7add56b424f6891bc40323e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7626962
+project-id = 1454111

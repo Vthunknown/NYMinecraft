@@ -1,0 +1,13 @@
+name = "Tijōn's Epic Arsenal"
+filename = "epic_arsenal-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TVje4pU2/versions/4HIDAXcq/epic_arsenal-1.0.2.jar"
+hash-format = "sha512"
+hash = "1495cfbbb913fb6374921299f1b8d76adaf5ffd56b96366db5e5a657f175d75644794699a3839266aac7e5b163ca77ef3348be08b99e19c9fc4b1c9a3bf7b6bd"
+
+[update]
+[update.modrinth]
+mod-id = "TVje4pU2"
+version = "4HIDAXcq"
