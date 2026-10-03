@@ -1,0 +1,111 @@
+
+["Gun Categories"]
+	#pistol
+	#手枪类
+	pistol = ["tacz:glock_17", "tacz:deagle", "tacz:deagle_golden", "tacz:p320", "tacz:b93r", "tacz:timeless50", "tacz:m1911", "tacz:cz75", "tacz:m320"]
+	#smg
+	#冲锋枪类
+	smg = ["tacz:hk_mp5a5", "tacz:uzi", "tacz:vector45", "tacz:p90", "tacz:ump45"]
+	#knife
+	#刀具类
+	knife = ["lrtactical:dagger", "lrtactical:karambit", "delta_wt:cobra_vanguard", "delta_wt:mercy", "delta_wt:polaris", "delta_wt:silencefd", "delta_wt:thieve_sea", "delta_wt:shadowkiller", "cs2_wt:bayonet", "cs2_wt:karambit", "cs2_wt:tactical", "cs2_wt:stiletto", "cs2_wt:push", "cs2_wt:talon", "cs2_wt:skeleton", "cs2_wt:css", "cs2_wt:m9", "cs2_wt:butterfly"]
+	#shotgun
+	#霰弹枪类
+	shotgun = ["tacz:m1014", "tacz:spas_12", "tacz:m870", "tacz:db_long", "tacz:db_short"]
+	#rifle
+	#步枪类
+	rifle = ["tacz:sks_tactical", "tacz:type_81", "tacz:qbz_95", "tacz:ak47", "tacz:hk416d", "tacz:m4a1", "tacz:m16a1", "tacz:hk_g3", "tacz:m16a4", "tacz:aa12", "tacz:qbz_191", "tacz:fn_fal", "tacz:aug", "tacz:g36k", "tacz:scar_h", "tacz:scar_l", "tacz:mk14", "tacz:spr15hb", "tacz:m249", "tacz:rpk", "tacz:fn_evolys"]
+	#bolt_action
+	#栓动步枪类
+	bolt_action = ["tacz:m700", "tacz:m107", "tacz:springfield1873", "tacz:m95", "tacz:ai_awp"]
+	#dual_pistol
+	#双持手枪类
+	dual_pistol = ["jak:jak_wardens_akimbo", "jak:renetti_dual_wield", "eos:elp_13_t3x2", "sfms:inf_x", "sfms:inf_xj", "emxarms:emx_pulsex2", "emxarms:emx_mac100", "applied_armorer:niklas_pistol_double_win_win", "pixel_gun:multi", "pixel_gun:head_p", "pixel_gun:2sg"]
+	#dual_rifle
+	#双持步枪类
+	dual_rifle = ["sfms:ats15mod", "erode:ats15mod_isaac", "eos:eos_m_57cw_t2x2", "daffas_arsenal:wj", "deep_rock_galactic:zkf", "daffas_arsenal:uji"]
+	#launcher
+	#火箭筒类
+	launcher = ["tacz:rpg7", "pixel_gun:bb"]
+	#minigun
+	#加特林类
+	minigun = ["tacz:minigun", "pixel_gun:os"]
+
+[Bodycam]
+	#Bodycam Mode
+	#1st person hyper realistic body cam view
+	bodycam_mode = false
+	#First-person bodycam camera local offset [right, up, forward].
+	bodycam_position_offset = [0.0, -0.1, 0.03]
+	#First-person bodycam constant pitch offset in degrees.
+	#Range: -15.0 ~ 15.0
+	bodycam_pitch_offset = 1.2
+	#First-person bodycam roll intensity in degrees.
+	#Range: 0.0 ~ 15.0
+	bodycam_roll_strength = 3.2
+	#First-person bodycam yaw/pitch sway intensity in degrees.
+	#Range: 0.0 ~ 10.0
+	bodycam_sway_strength = 1.8
+	#First-person bodycam movement bob intensity in degrees.
+	#Range: 0.0 ~ 10.0
+	bodycam_bob_strength = 1.1
+
+["Aim Assist"]
+	#Enable soft lock aim assist while holding the aim button.
+	soft_lock_aim_assist = false
+	#Allow soft lock aim assist in first-person.
+	soft_lock_first_person = true
+	#Allow soft lock aim assist in third-person.
+	soft_lock_third_person = true
+	#Require direct line of sight to keep/lock target.
+	soft_lock_require_line_of_sight = true
+	#Soft lock max target range in blocks.
+	#Range: 4.0 ~ 128.0
+	soft_lock_range = 36.0
+	#Max angle from crosshair to acquire a new target.
+	#Range: 0.5 ~ 45.0
+	soft_lock_acquire_angle_degrees = 28.0
+	#Max angle to keep following an already locked target.
+	#Range: 1.0 ~ 60.0
+	soft_lock_keep_angle_degrees = 55.0
+	#Soft lock smoothing strength per tick (0-1). Lower = softer.
+	#Range: 0.01 ~ 1.0
+	soft_lock_strength = 0.4
+	#Max yaw/pitch correction per tick in degrees.
+	#Range: 0.1 ~ 20.0
+	soft_lock_max_step_degrees = 7.0
+	#Smoothing factor for soft lock camera correction (0-1). Higher = smoother.
+	#Range: 0.0 ~ 1.0
+	soft_lock_camera_smoothing = 0.35
+	#Ignore tiny correction noise under this angular error to reduce jitter.
+	#Range: 0.0 ~ 5.0
+	soft_lock_deadzone_degrees = 0.35
+	#Fade correction near soft-lock edge to prevent boundary jitter.
+	#Range: 0.5 ~ 30.0
+	soft_lock_edge_softness_degrees = 8.0
+	#Minimum intentional look movement away from target needed to build break-away resistance.
+	#Range: 0.1 ~ 25.0
+	soft_lock_break_away_threshold_degrees_per_tick = 1.3
+	#How many consecutive ticks of strong look-away input are required to break soft lock.
+	#Range: 1 ~ 40
+	soft_lock_break_away_hold_ticks = 3
+	#Reduce look sensitivity while aiming down sights in third-person for finer aim control.
+	third_person_ads_sensitivity_reduction = true
+	#Sensitivity multiplier while ADS in third-person (1.0 = unchanged, lower = slower).
+	#Range: 0.2 ~ 1.0
+	third_person_ads_sensitivity_multiplier = 0.7
+
+[Other]
+	#Pump/cock in-between shot animation subset for shotguns (GunId or item id).
+	#Rule: gun must resolve as shotgun style, and also be listed here to play shotgun guncock in-between shots.
+	shotgun_pump = ["tacz:m870", "tacz:spas_12", "bf1:model10", "lradd:mag7", "create_armorer:shotgun_pump_bearing", "immersive_armorer:pump_shotgun"]
+	#First Person Fallback
+	#Force first-person for uncategorized guns (TacZ active-use and VPB namespace-based items while held).
+	#Once the gun is added to a category list, fallback is lifted automatically and category animations apply.
+	first_person_fallback = true
+	#When dodging in first-person, camera follows dodge roll rotation path.
+	#Disable to keep first-person camera level during dodge rolls.
+	first_person_dodge_camera_follows_roll = true
+	#Enable fatigued animation when stamina is very low after sprint/parcool exertion and both hands are not holding weapons.
+	fatigued_exhaustion_animation = true
+

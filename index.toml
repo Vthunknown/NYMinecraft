@@ -5,6 +5,108 @@ file = "README.md"
 hash = "d55a41b054287c43983cd42a137eb270c9142801a23fc7c0a47c3baee25bf325"
 
 [[files]]
+file = "config/Weather2/Misc.toml"
+hash = "0c442efd2496fabffb2c5105206e2ade356e8db270e68fa526a11d3723d832e8"
+
+[[files]]
+file = "config/Weather2/Storm.toml"
+hash = "93785a4988988deab4a97b7ac29e71df2fa3aba1060e2a99dc0cec2bc6cb4218"
+
+[[files]]
+file = "config/Weather2/Tornado.toml"
+hash = "607bbad1b88285a5b4b59e3bdb6f3bf589c20b07cc218ef1583225da331cf390"
+
+[[files]]
+file = "config/epicarsenal-common.toml"
+hash = "be4cb4c606f713c677c9b3b1a914ade4c673e3db34b4dbd8c8822ce171d87ee1"
+preserve = true
+
+[[files]]
+file = "config/irons_spellbooks-client.toml"
+hash = "a6f6212b23b1e40aeade2dfea0ead6dc0d88a427a4f8e12f650dd2aeb5628001"
+preserve = true
+
+[[files]]
+file = "kubejs/README.txt"
+hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/example_block.png"
+hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/example_item.png"
+hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/client_scripts/example.js"
+hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
+
+[[files]]
+file = "kubejs/config/client.properties"
+hash = "a2a09c7e84003257516d749a034e4bce9f21d6edfa95531b0f97a95886d7b3c9"
+
+[[files]]
+file = "kubejs/config/common.properties"
+hash = "d1a44c235c1d445bd72d7f83585aaf639dfc8534bf33dad1bed87cf8814de532"
+
+[[files]]
+file = "kubejs/data/bettermineshafts/tags/worldgen/biome/has_structure/better_mineshaft_desert.json"
+hash = "e6cb5318685eeda01ec27366feb1dc0348310a8bcf9d8a6dd68101a4240c49ea"
+
+[[files]]
+file = "kubejs/data/bettermineshafts/tags/worldgen/biome/has_structure/better_mineshaft_ice.json"
+hash = "5dbea4c10a3a02abe9e7d5aea328ca6a7ccc5421f8f03aef9312b20aa43c84f9"
+
+[[files]]
+file = "kubejs/data/bettermineshafts/tags/worldgen/biome/has_structure/better_mineshaft_jungle.json"
+hash = "e3a614c395487a8ce0f76cc9c41d1df3b7a623d6d61080560d4dc147e8732f5c"
+
+[[files]]
+file = "kubejs/data/bettermineshafts/tags/worldgen/biome/has_structure/better_mineshaft_oak.json"
+hash = "9eb9cea776a3aecd7edb386cbcdf17d56e5a6651bd78f2a6aa2f4413e5f5e666"
+
+[[files]]
+file = "kubejs/data/bettermineshafts/tags/worldgen/biome/has_structure/better_mineshaft_red_desert.json"
+hash = "e6cb5318685eeda01ec27366feb1dc0348310a8bcf9d8a6dd68101a4240c49ea"
+
+[[files]]
+file = "kubejs/data/bettermineshafts/tags/worldgen/biome/has_structure/better_mineshaft_spruce.json"
+hash = "9eb9cea776a3aecd7edb386cbcdf17d56e5a6651bd78f2a6aa2f4413e5f5e666"
+
+[[files]]
+file = "kubejs/data/bettermineshafts/tags/worldgen/biome/has_structure/better_mineshaft_spruce_snowy.json"
+hash = "5dbea4c10a3a02abe9e7d5aea328ca6a7ccc5421f8f03aef9312b20aa43c84f9"
+
+[[files]]
+file = "kubejs/data/dungeons_arise/tags/worldgen/biome/has_structure/foundry_biomes.json"
+hash = "7aabde89b9b4794146d58208d594e4a34640ff92ad614f5c594b99991fe89562"
+
+[[files]]
+file = "kubejs/data/dungeons_arise/tags/worldgen/biome/has_structure/mining_system_biomes.json"
+hash = "7aabde89b9b4794146d58208d594e4a34640ff92ad614f5c594b99991fe89562"
+
+[[files]]
+file = "kubejs/data/dungeons_arise/tags/worldgen/biome/has_structure/plague_asylum_biomes.json"
+hash = "7aabde89b9b4794146d58208d594e4a34640ff92ad614f5c594b99991fe89562"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/loot_tables/chests/catacombs/crypt_loot.json"
+hash = "f3d3777bb2156dca12e6c905705661db964f9501008a8316dced1acc1d7df8f5"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/loot_tables/chests/citadel/citadel_tomes.json"
+hash = "8333e602b982675457556614531036ee9644495dab0d819bb032292bcc82d028"
+
+[[files]]
+file = "kubejs/server_scripts/example.js"
+hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
+
+[[files]]
+file = "kubejs/startup_scripts/example.js"
+hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "4f94db9eeb714f81d02e125e2021e55c7ca6c6ef8423bf6488dd51ebdfdf6fc5"
 metafile = true
@@ -52,6 +154,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
+metafile = true
+
+[[files]]
+file = "mods/coroutil.pw.toml"
+hash = "b2c7739b56ef71f50a86658cfa67375796beafd391c4dbe26a5de8cd92b9b685"
 metafile = true
 
 [[files]]
@@ -170,6 +277,11 @@ hash = "835bd8b05a05ce6c0981ddc37c49e4c476aa0414cc2a5321fd9f8994193b6feb"
 metafile = true
 
 [[files]]
+file = "mods/immersive-weathering.pw.toml"
+hash = "0a83314a5c0d8d8f356bd3a8a7a57a0b09133855a59c8ec6791a470c174d57ee"
+metafile = true
+
+[[files]]
 file = "mods/irons-lib.pw.toml"
 hash = "ee37dff97699f5d4584ac8f1475c1cfcda7f0b0294dab9a3da042c21026b17a1"
 metafile = true
@@ -187,6 +299,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "12f93c961f4f82c5613f934c75e0ac954a4ae4682338d9fda4341607efd7a506"
+metafile = true
+
+[[files]]
+file = "mods/kiwi.pw.toml"
+hash = "9124261ff2f214a18d4b10255eb5a8aeefc19a2a25278fae95629def76eef42a"
 metafile = true
 
 [[files]]
@@ -230,6 +347,11 @@ hash = "f35748c9b332d0ff68203197dd648b9daf9b8e1c4060a3222d3e91cd08860637"
 metafile = true
 
 [[files]]
+file = "mods/moonlight.pw.toml"
+hash = "685d7c61f7d5e1c16e3de6f7e16e090c0355cf38e7d416b730093d4dc239d9d2"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "679fa8f3b49b9ed3fbcb29d6ccdb99bce465faa01f9cec000464ac8d4fbe134f"
 metafile = true
@@ -257,6 +379,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "b8c7497acbf4890b4609b6b20de7affdd3482fc99af975d9ff6b29c075e1d8a7"
+metafile = true
+
+[[files]]
+file = "mods/snow-real-magic.pw.toml"
+hash = "1be3f2d08a1454a32fdba9010e3f11d7722de36e45083a4b73c3e55c6f708407"
 metafile = true
 
 [[files]]
@@ -317,6 +444,11 @@ metafile = true
 [[files]]
 file = "mods/timeless-and-classics-zero.pw.toml"
 hash = "733b8967d6f263e9cc7ca2f001067be6ed8e21c214d73afb4e7fb418fa3e4364"
+metafile = true
+
+[[files]]
+file = "mods/weather-storms-tornadoes.pw.toml"
+hash = "8669708ff6478c72e7c5aa8c25c66e8178bbb316a684b86505fc986631eae6a3"
 metafile = true
 
 [[files]]

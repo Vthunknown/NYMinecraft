@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "yungscavebiomes:lost_caves",
+      "required": false
+    }
+  ]
+}
