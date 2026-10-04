@@ -1,0 +1,13 @@
+name = "Aquaculture 2"
+filename = "Aquaculture-1.20.1-2.5.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Vl1uNAuy/versions/wNiFoROs/Aquaculture-1.20.1-2.5.7.jar"
+hash-format = "sha512"
+hash = "0ce772a8c8379ab5c38b6a6db05d57d5c1764c97d66102ea1ca57e98011dcc6294f38523f0b34ba9f571ff591c9c6e40c5f6ddcaea32b60dac6bd570093b4ed3"
+
+[update]
+[update.modrinth]
+mod-id = "Vl1uNAuy"
+version = "wNiFoROs"
