@@ -1,0 +1,13 @@
+name = "Berk Furniture"
+filename = "berk_furn_neoforge-1.0.5-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b04022188f9b16b6033199216afe7eaa712c4fe5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7964577
+project-id = 1460388

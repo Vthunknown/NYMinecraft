@@ -1,0 +1,17 @@
+   [woodtype]
+   	blacklist = ["forestry:.*"]
+
+   [leavestype]
+   	blacklist = ["forestry:.*"]
+
+   [block]
+   	blacklist = []
+
+   [entryset]
+   	blacklist = []
+
+   [module]
+   	blacklist = ["rechiseled", "refurbished_furniture", "twilightforest", "friendsandfoes", "create"]
+
+   [other]
+   	include_all_wood_modules = true
