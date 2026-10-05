@@ -1,0 +1,13 @@
+name = "Forestry: CE"
+filename = "forestry-1.20.1-2.11.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cfda7553b244916c0087cc70c31fc5303a8c2629"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8844537
+project-id = 1056828

@@ -1,0 +1,13 @@
+name = "Gendustry: CE"
+filename = "gendustry-1.20.1-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "637ab69521fadc9225208c89b4634e202abba0c4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7577686
+project-id = 1179084

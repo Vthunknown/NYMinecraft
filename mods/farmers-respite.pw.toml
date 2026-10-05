@@ -1,0 +1,13 @@
+name = "Farmer's Respite"
+filename = "farmersrespite-1.20.1-2.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fasdaXH5/versions/kucmCxP0/farmersrespite-1.20.1-2.1.2.jar"
+hash-format = "sha512"
+hash = "a6969c20c04fcbe378b5088b8f00f02e70d27747bcb2814f642d3f94af67526fbec52db7ebedba524067e63ab5f63a91427f5dfd3cee66dcade1d4c3f40f9fda"
+
+[update]
+[update.modrinth]
+mod-id = "fasdaXH5"
+version = "kucmCxP0"

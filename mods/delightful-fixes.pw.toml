@@ -1,0 +1,13 @@
+name = "Delightful Fixes"
+filename = "delightfulfixes-1.20.1-1.2.5a.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f6fca13afcefde876ba31980159ccbaeeefe1160"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8426244
+project-id = 1549032
