@@ -1,0 +1,13 @@
+name = "Mystic Alchemy"
+filename = "1.20.1-forge-0.3.1-1.20.1-forge-0.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "75dec873158d4db23c058719f931d63f34eca954"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6840161
+project-id = 409492

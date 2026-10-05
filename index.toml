@@ -71,6 +71,14 @@ file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
+file = "kubejs/assets/nymc/lang/en_us.json"
+hash = "59201f968cc25647ce83ef952ed073fcd778e215ef14761ae455ff687dc9bca9"
+
+[[files]]
+file = "kubejs/assets/nymc/lang/ru_ru.json"
+hash = "4414bd2f163d29a2819211495c08310314c01c1c05cae0fe629ea5872cb7232e"
+
+[[files]]
 file = "kubejs/client_scripts/example.js"
 hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
 
@@ -294,6 +302,11 @@ hash = "481e252f80a15ee45ad5feb27047a20d3eaeee077dbf56fd684e682cc02975d8"
 metafile = true
 
 [[files]]
+file = "mods/daves-potioneering.pw.toml"
+hash = "d36550e6e3d122f6a945525d7fe959a173e83efd30c8f69639fd74a5631069ad"
+metafile = true
+
+[[files]]
 file = "mods/delightful-fixes.pw.toml"
 hash = "6d0c370d790d0e2cc7fc29947eec2b1cadb546ef17bff2d2f041adee5f5a0205"
 metafile = true
@@ -420,7 +433,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "7ffae05c3b8101588b231db8116c34b36a77a0c6e6d7e6af867ae1c5b47e4d10"
+hash = "898fd2704dd260ae8f3dc20b4416439751f0a9e76367c4f0bbdac886b6987802"
 metafile = true
 
 [[files]]
@@ -596,6 +609,11 @@ metafile = true
 [[files]]
 file = "mods/mowzies-mobs.pw.toml"
 hash = "0e6b04ea03c95a193b564aee5c67b8912c52c1de61cd2bd43222c494e26bbbe9"
+metafile = true
+
+[[files]]
+file = "mods/mystic-alchemy.pw.toml"
+hash = "08693a31fd97ec19458e656e70a276c007286bc29cf11e892aad5b774417c016"
 metafile = true
 
 [[files]]
