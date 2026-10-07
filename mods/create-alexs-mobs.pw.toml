@@ -1,0 +1,13 @@
+name = "Create: Alex's Mobs"
+filename = "cam-1.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7f3b8e6539f7e1c9c05722d3841157229b7ad396"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9016186
+project-id = 1582867

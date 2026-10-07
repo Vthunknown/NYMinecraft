@@ -1,0 +1,18 @@
+name = "Stellar View"
+filename = "Stellar.View-1.20.1-0.5.3-Forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Iairjv0A/versions/TeocbE6L/Stellar.View-1.20.1-0.5.3-Forge.jar"
+hash-format = "sha512"
+hash = "771a5dfd35e56de667b5b1a8db3e27a96ce4d446e549c87e1ef7bd535eaf2c62d1e426b19db4300081a75758dcdefb49f8cff75b8cab1d2ac7e7d3a3e9cd0f7d"
+
+[update]
+[update.modrinth]
+mod-id = "Iairjv0A"
+version = "TeocbE6L"
+
+[option]
+optional = true
+default = false
+description = "Красивое звёздное небо. Внимание: с ним луны Enhanced Celestials (кровавая и др.) не меняют цвет, их можно узнать только по звуку и тексту в чате"

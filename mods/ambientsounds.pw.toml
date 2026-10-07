@@ -1,0 +1,17 @@
+name = "AmbientSounds"
+filename = "AmbientSounds_FORGE_v6.3.9_mc1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/fM515JnW/versions/EPxVyOnf/AmbientSounds_FORGE_v6.3.9_mc1.20.1.jar"
+hash-format = "sha512"
+hash = "7d77e7e6658d7952124d3fd5707baceda6a2bfc14fe394841e6230b42deb859adfa017b82cedefd2bce3d70bc2ec3060f7d525e55ab8ce7fa2887a2ad81adcf4"
+
+[update]
+[update.modrinth]
+mod-id = "fM515JnW"
+version = "EPxVyOnf"
+
+[option]
+optional = true
+default = true

@@ -1,0 +1,13 @@
+name = "Somnia: Community Edition"
+filename = "somnia-ce-forge1.20.1-3.5.0-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d64dd39a524b1cc13baec63795addf20e9e97ce7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7061536
+project-id = 1357013

@@ -1,0 +1,17 @@
+name = "Cosy Critters & Creepy Crawlies"
+filename = "cosycritters-0.3.3+1.20.1-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/61PI8Hzj/versions/FXIs1tHj/cosycritters-0.3.3%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "c99d79fb9005071c0b1bb56e74cf870857a5f41a74400e4ba6dede791aab2e4d2904318b37e03c930a0fd493115d8bff3eb346e0667111e8c8dd864c54931d1c"
+
+[update]
+[update.modrinth]
+mod-id = "61PI8Hzj"
+version = "FXIs1tHj"
+
+[option]
+optional = true
+default = true
