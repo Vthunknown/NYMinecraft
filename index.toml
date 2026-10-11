@@ -63,12 +63,24 @@ file = "config/modernfix-mixins.properties"
 hash = "bdef313e56b1d978eb44e216d87110766de4ccc30b0e240b1a53c9b01b19b4b2"
 
 [[files]]
+file = "config/somnia-common.toml"
+hash = "f3796c3cbd72c9d2ab61bed8cb9144c2a0b9840a5486fa43a3d03451d001b926"
+
+[[files]]
+file = "config/spartanweaponry-common.toml"
+hash = "8fe21fa3a01ad3ed4a6cde8c3628e5f8d6b43da6a3d779dba26c6186b5f3cc86"
+
+[[files]]
 file = "defaultconfigs/createbigcannons-server.toml"
 hash = "a17b04817cd23bfcd7bb8bba339e401c80e7bc6bda708cb1a45a030ef4027910"
 
 [[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/README_spartan_epicfight.md"
+hash = "2196a6fe39d27c64ca1168ddc703040ac318cb5214463ed1783f45ba299ddc65"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -87,12 +99,20 @@ file = "kubejs/assets/nymc/lang/ru_ru.json"
 hash = "4414bd2f163d29a2819211495c08310314c01c1c05cae0fe629ea5872cb7232e"
 
 [[files]]
+file = "kubejs/assets/spartanweaponry/lang/en_us.json"
+hash = "d11c0e94c2d743d38a03097d6ef475822575b6be4b1b73f226ae43263c80b0d7"
+
+[[files]]
+file = "kubejs/assets/spartanweaponry/lang/ru_ru.json"
+hash = "ab4f0984e2bdb484ee6b80c81b390c2052147b4d6b197c47414c7b9ce8204098"
+
+[[files]]
 file = "kubejs/client_scripts/example.js"
 hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
 
 [[files]]
 file = "kubejs/client_scripts/nymc_hide_items.js"
-hash = "9e7ad0b72233716672cd2554f71aea70c9ea4feff082389a4a20b11535adbdce"
+hash = "34bc0ef132f4fa7a9e3214e64b932bc1b6c3fb8a8dbdfb4ea8ddb5a1b2690c54"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -151,8 +171,828 @@ file = "kubejs/data/irons_spellbooks/loot_tables/chests/citadel/citadel_tomes.js
 hash = "8333e602b982675457556614531036ee9644495dab0d819bb032292bcc82d028"
 
 [[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_battle_hammer.json"
+hash = "70d90d3d3b96fb26342d7d65d67cd2476e0be3b8b3567fc669b83f824891de51"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_battleaxe.json"
+hash = "cf0942965c676c9b0a8a4e33fe2719166bc8786aff6d3aab086589627c067f7a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_boomerang.json"
+hash = "dfe11e5fd323ec835ccaaa9aeecf7bdfe401b1fc1435c5db54937e155277db73"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_dagger.json"
+hash = "d0f9fe74aa59d7a9537021d45f96259de8bc937f28a8648669606b95e0d11f19"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_flanged_mace.json"
+hash = "efd3d71848aebe09fbae77c6f604b9001e61b17079e6881ae3d34ddf14a66800"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_glaive.json"
+hash = "86fe978fc623312ba4fe1b06af7b6d9760f6b8f4024b404e49fbe615ba4c1813"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_greatsword.json"
+hash = "afa4a78794efbdab6ab4b5a10fc5ae66bdcce2a541e2723c63db6f107c1dfb0b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_halberd.json"
+hash = "9f5f924e7fc03d736de936118d538d40af8d90692a2344bd5e2facdc1c8f9cc9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_javelin.json"
+hash = "d1633a9a253f6b3e2b89feb86c06233b2d70758f7a12753706b97c6a56fed433"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_katana.json"
+hash = "5e6fc6730fe2c2ee8aa4c70d1ac4260b7525ceef75011d2d5796db49c9fb77de"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_lance.json"
+hash = "2fcfffe0cd62ded82bd8e25511b18d3aad5306a2dc4c03f612352f2dd24e0e4f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_longsword.json"
+hash = "936683bdd012dd4c3e25a6bce06a8f18817cfb8966de52819d185b26be7ca5a8"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_parrying_dagger.json"
+hash = "3d62c462b66478ebbf46cec764a3e8112d38facf8035582e705ddf9d7c7b5965"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_pike.json"
+hash = "e6887264ae1d19c79869215b1ef8b676b827ed5eb7c06d7b32ac46ab864e1a6a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_quarterstaff.json"
+hash = "df74b51760c9821072cb263a9aa5d5e4040421fb440d67f57e1338b79b0e24e4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_rapier.json"
+hash = "94358efb2e392d8d626f720d72782dfb5926b7bd0349ff6d5f0a0cc790f51a74"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_saber.json"
+hash = "20bd00ee70ab8e3b40267b67b08231da9970e0eeaa87becee65aa87fa1bc7a15"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_scythe.json"
+hash = "0b46760a9d34c0a01c76b89bb521905f5760f16c1603895c362860c52752ecba"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_spear.json"
+hash = "cccb58eaa7b1784a00ad17d3defd7079ed44d9220960727671932b5580fa8fd6"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_throwing_knife.json"
+hash = "dfe11e5fd323ec835ccaaa9aeecf7bdfe401b1fc1435c5db54937e155277db73"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_tomahawk.json"
+hash = "3d62c462b66478ebbf46cec764a3e8112d38facf8035582e705ddf9d7c7b5965"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_warhammer.json"
+hash = "c8f9c74f725868b349e0d2a2935a02edfe757fbbfe5ede070fbc2bac07fa0433"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/cestus.json"
+hash = "9035a93e84018ec39de735ca73dd7672e03b20817149ab7fae014a123ec206ed"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_battle_hammer.json"
+hash = "7f12edb7bdbdc66c7ca7acbf79fa4ba65124aba9fd2e4b21cfffa3af482c756f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_battleaxe.json"
+hash = "6728790f4785d2722c8007f2a2e98add68da8b7305be64f565914baa601b3a3d"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_boomerang.json"
+hash = "2afe85a8a9f0314bc6c6a4726e73b0155e452f7a74b99a4444be54a5f60eb34f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_dagger.json"
+hash = "b6b7f3d415f8985e854d75adff810105c7a84bc49176521fbeb10a29415c8656"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_flanged_mace.json"
+hash = "6647081c3f32b21fe81554aabf5dfdc58cf00686f571c3b6f3d40ddfdf32ccec"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_glaive.json"
+hash = "f181e5a2ce2174ca4e17f967f2253aface37a25b620581c7c9a733d4d2699045"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_greatsword.json"
+hash = "8d94f5e8c100c996332c4f9d02e00f2fed517bea026e04dcffdac91383d50ce4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_halberd.json"
+hash = "e7e569abace73f42e31bb7326c406247c484a0293c5a1a6cbce790439195e4b5"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_javelin.json"
+hash = "29214bfcc5413a39ecfc4fbd822f96b389dcd90a17237a2dd8d11d94493b6242"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_katana.json"
+hash = "5e6fc6730fe2c2ee8aa4c70d1ac4260b7525ceef75011d2d5796db49c9fb77de"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_lance.json"
+hash = "f57ae6815a597ac5d3d7bdda3a7e34d431cf8f3333f18c7f853293b8244273df"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_longsword.json"
+hash = "90238f5c357ce4c0b54953b7b945f5c74fd8d22faa46330d0f8b218f0d994562"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_parrying_dagger.json"
+hash = "dfe11e5fd323ec835ccaaa9aeecf7bdfe401b1fc1435c5db54937e155277db73"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_pike.json"
+hash = "5feef45121b6a42177fcb20434fcc5da022610539ff6e1e3b3df4e681334b86f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_quarterstaff.json"
+hash = "4dbe3ac1d2358dd4eae906287a5f8346d8971b90304cea5773ad2e6d0ad02bb8"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_rapier.json"
+hash = "753f0d556b83bbc6200cd03695467fa0cdc9a46089e52f5b8d4d1426c9365f8d"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_saber.json"
+hash = "c123148cead3d2bc869d9619f86cff7e7cf86945f42ee9b781574fbb7679b77a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_scythe.json"
+hash = "dcedb72ed9081d580f13c2c3c5d15879d086958844ddd728c2bc20fc2f09bfbc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_spear.json"
+hash = "143d8cd65a39355060505e4cdfe4bb667a66b2cdc0f3cc02a64f733b0d17df9c"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_throwing_knife.json"
+hash = "2afe85a8a9f0314bc6c6a4726e73b0155e452f7a74b99a4444be54a5f60eb34f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_tomahawk.json"
+hash = "dfe11e5fd323ec835ccaaa9aeecf7bdfe401b1fc1435c5db54937e155277db73"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_warhammer.json"
+hash = "da58ebbbd66b4197781ef917a468f52c88a274ff2bb1c40b37af88ae33fffa3f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_battle_hammer.json"
+hash = "21696ec03eec07c3b7b6a56d51e6338ced4428f56fe8afb94f9caa17c0d8e6e7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_battleaxe.json"
+hash = "7e77010be48eb5430da87d7c16ca42ea71ee511e9803c5e560974763d0090dd5"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_boomerang.json"
+hash = "48688117325a9e5db28922eeea7b5d1495bd207a4cd5ce45912d20c5f609033f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_dagger.json"
+hash = "4049451048be3a7acb887aeb0777a8f27e08d03f6341eb4a7bfa918ba2c10b14"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_flanged_mace.json"
+hash = "9601fa3d4a22a008da6b1990a31db6d6cb9b9ccfad8ddcf5d09ac6f0fffaa4fd"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_glaive.json"
+hash = "aae562f5b50a39cf49f7d51be328c64ad2f729b025b18dce63d2172b2235be8c"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_greatsword.json"
+hash = "7bcf03af95ec05459369608fd9029c5577878e66e5967eb2c40667ed0638fb29"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_halberd.json"
+hash = "41bc650d12f6060ca302d7d009fa3b84c9fe90e8663ba0d0872f42551ccc2a3d"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_javelin.json"
+hash = "8409a87f0421144a0dd49c8c97675a87de8bf29fab7133dd37fdb9e0a44daeec"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_katana.json"
+hash = "30f56303b2357ef264d5b1b701c9608c2e7555b6b33df8b40023f802306bcd77"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_lance.json"
+hash = "f0ee6830d87e7f945040ac43b643bb78e82b5578c7d2082068f777bd86462840"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_longsword.json"
+hash = "57d3ac584f38ec85053faca8fa01b2ce4746550eae2cdb78319c54ef13152378"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_parrying_dagger.json"
+hash = "e81e30d604708fa7f728fb087591bb815accb334b53d6016f42fece0e4bbf21a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_pike.json"
+hash = "ba128e8bf3d56060490861a00be5cba4b9d2c79b2cf858ddd1b901e6a84f88bb"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_quarterstaff.json"
+hash = "f6c763bbd88af99c6b49c9544ef086c496f5f17b1d03ffeb25e004b6932bdbdc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_rapier.json"
+hash = "c885a1226243be6d99477093bbe583d0b3321b37a0b3638ba79155be9e951120"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_saber.json"
+hash = "2543d60244d1952658956e0fe5723d574afb5ef9d21011f2e7d87f9e557bbd3f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_scythe.json"
+hash = "c3f090237640c1c88fd2d4f84760021a035bb365062b0e4bc6efbef644395664"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_spear.json"
+hash = "2d4deafea1f0fd5e1fe88339d5424433464784687870f7b11bf5587d4982ad4b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_throwing_knife.json"
+hash = "dfe11e5fd323ec835ccaaa9aeecf7bdfe401b1fc1435c5db54937e155277db73"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_tomahawk.json"
+hash = "e81e30d604708fa7f728fb087591bb815accb334b53d6016f42fece0e4bbf21a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_warhammer.json"
+hash = "f82dc5ba67198ce991240379e6ce0c875a5bb0b31594c69863de1cc5c2679abd"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_battle_hammer.json"
+hash = "7f12edb7bdbdc66c7ca7acbf79fa4ba65124aba9fd2e4b21cfffa3af482c756f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_battleaxe.json"
+hash = "6728790f4785d2722c8007f2a2e98add68da8b7305be64f565914baa601b3a3d"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_boomerang.json"
+hash = "2afe85a8a9f0314bc6c6a4726e73b0155e452f7a74b99a4444be54a5f60eb34f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_dagger.json"
+hash = "21a586d4a78e9e8ccfed26dad2e5389ff46a832ed35ed83f0988d0905a3f21a5"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_flanged_mace.json"
+hash = "6647081c3f32b21fe81554aabf5dfdc58cf00686f571c3b6f3d40ddfdf32ccec"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_glaive.json"
+hash = "b240fd7582d00afdc225bc014a10bc2c7038bb849b151f3d9227d1f3c7522d29"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_greatsword.json"
+hash = "8d94f5e8c100c996332c4f9d02e00f2fed517bea026e04dcffdac91383d50ce4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_halberd.json"
+hash = "b1e7d0252e6f17025cc09f064637edb887178893d0359884d4da9caa4e314c3b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_javelin.json"
+hash = "29214bfcc5413a39ecfc4fbd822f96b389dcd90a17237a2dd8d11d94493b6242"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_katana.json"
+hash = "75a8c365e7bde6d39cce840a13ddbe3bd764d11b60069534a48de6f6752df51c"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_lance.json"
+hash = "d30b4cc614087b2b3667786b393a7d276f96c45ccf6829c3972607f671506038"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_longsword.json"
+hash = "90238f5c357ce4c0b54953b7b945f5c74fd8d22faa46330d0f8b218f0d994562"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_parrying_dagger.json"
+hash = "dfe11e5fd323ec835ccaaa9aeecf7bdfe401b1fc1435c5db54937e155277db73"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_pike.json"
+hash = "4111ee961a2bd452d2e6d96c34bb68c18c41b73592aeaf16e823b93e65df2b73"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_quarterstaff.json"
+hash = "4dbe3ac1d2358dd4eae906287a5f8346d8971b90304cea5773ad2e6d0ad02bb8"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_rapier.json"
+hash = "753f0d556b83bbc6200cd03695467fa0cdc9a46089e52f5b8d4d1426c9365f8d"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_saber.json"
+hash = "c123148cead3d2bc869d9619f86cff7e7cf86945f42ee9b781574fbb7679b77a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_scythe.json"
+hash = "dcedb72ed9081d580f13c2c3c5d15879d086958844ddd728c2bc20fc2f09bfbc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_spear.json"
+hash = "6b8103eeb8e342c9246e0c2f8766dae10015909b1f54accdc27e1dd160ce3b76"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_throwing_knife.json"
+hash = "2afe85a8a9f0314bc6c6a4726e73b0155e452f7a74b99a4444be54a5f60eb34f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_tomahawk.json"
+hash = "dfe11e5fd323ec835ccaaa9aeecf7bdfe401b1fc1435c5db54937e155277db73"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_warhammer.json"
+hash = "da58ebbbd66b4197781ef917a468f52c88a274ff2bb1c40b37af88ae33fffa3f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_battle_hammer.json"
+hash = "70d90d3d3b96fb26342d7d65d67cd2476e0be3b8b3567fc669b83f824891de51"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_battleaxe.json"
+hash = "cf0942965c676c9b0a8a4e33fe2719166bc8786aff6d3aab086589627c067f7a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_boomerang.json"
+hash = "dfe11e5fd323ec835ccaaa9aeecf7bdfe401b1fc1435c5db54937e155277db73"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_dagger.json"
+hash = "d0f9fe74aa59d7a9537021d45f96259de8bc937f28a8648669606b95e0d11f19"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_flanged_mace.json"
+hash = "efd3d71848aebe09fbae77c6f604b9001e61b17079e6881ae3d34ddf14a66800"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_glaive.json"
+hash = "86fe978fc623312ba4fe1b06af7b6d9760f6b8f4024b404e49fbe615ba4c1813"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_greatsword.json"
+hash = "afa4a78794efbdab6ab4b5a10fc5ae66bdcce2a541e2723c63db6f107c1dfb0b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_halberd.json"
+hash = "9f5f924e7fc03d736de936118d538d40af8d90692a2344bd5e2facdc1c8f9cc9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_javelin.json"
+hash = "d1633a9a253f6b3e2b89feb86c06233b2d70758f7a12753706b97c6a56fed433"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_katana.json"
+hash = "5e6fc6730fe2c2ee8aa4c70d1ac4260b7525ceef75011d2d5796db49c9fb77de"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_lance.json"
+hash = "2fcfffe0cd62ded82bd8e25511b18d3aad5306a2dc4c03f612352f2dd24e0e4f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_longsword.json"
+hash = "936683bdd012dd4c3e25a6bce06a8f18817cfb8966de52819d185b26be7ca5a8"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_parrying_dagger.json"
+hash = "3d62c462b66478ebbf46cec764a3e8112d38facf8035582e705ddf9d7c7b5965"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_pike.json"
+hash = "e6887264ae1d19c79869215b1ef8b676b827ed5eb7c06d7b32ac46ab864e1a6a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_quarterstaff.json"
+hash = "df74b51760c9821072cb263a9aa5d5e4040421fb440d67f57e1338b79b0e24e4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_rapier.json"
+hash = "94358efb2e392d8d626f720d72782dfb5926b7bd0349ff6d5f0a0cc790f51a74"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_saber.json"
+hash = "20bd00ee70ab8e3b40267b67b08231da9970e0eeaa87becee65aa87fa1bc7a15"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_scythe.json"
+hash = "0b46760a9d34c0a01c76b89bb521905f5760f16c1603895c362860c52752ecba"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_spear.json"
+hash = "cccb58eaa7b1784a00ad17d3defd7079ed44d9220960727671932b5580fa8fd6"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_throwing_knife.json"
+hash = "dfe11e5fd323ec835ccaaa9aeecf7bdfe401b1fc1435c5db54937e155277db73"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_tomahawk.json"
+hash = "3d62c462b66478ebbf46cec764a3e8112d38facf8035582e705ddf9d7c7b5965"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_warhammer.json"
+hash = "c8f9c74f725868b349e0d2a2935a02edfe757fbbfe5ede070fbc2bac07fa0433"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_battle_hammer.json"
+hash = "e1877b3635268fbf3133240d2286a57f9178409568d8027d35de832c057eda9a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_battleaxe.json"
+hash = "d2a3d7dd01cf8316c2dd7d6a5390fc5bd59cef3e15a3013064babe12cd84b4b7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_boomerang.json"
+hash = "d834a1d7edfbdaa235510990ec0bef9ce08318c30d52e3a2c5189a2fdc38ee97"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_dagger.json"
+hash = "27b526121327dab5c7eace2b0d15271886f065b0f1ef2aa6c534a7fb8dfecbbf"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_flanged_mace.json"
+hash = "b1b4070b758370e7cc97e9cdf6a51c98136c6c8cb35c9d6863315125f33c78da"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_glaive.json"
+hash = "43de0b5739369351dc1222527a27747c408b48fc350db53d8fdb9dd7dd7c63aa"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_greatsword.json"
+hash = "5bcb1e7c8fa7fea1216291baf5854e33218c0219cb8083ac5698ae3b27a14637"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_halberd.json"
+hash = "76861b02c9c2d0e2f5ac22484a9ad801353b56060797e37aa16ba3d4fb3098d6"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_javelin.json"
+hash = "b7ed63e08b199ea29cde2c7371d0f5e940d62ecc985280abc68f117f412d08b4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_katana.json"
+hash = "0777bf13236ce37e0acddc800626c6e5ec51a85f28927ee0114048cb666889a3"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_lance.json"
+hash = "fbddc185dfddf749e92af480e50a95d2151fc9bd5edeb194720412daaa9315c7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_longsword.json"
+hash = "b06392a4c1d05a2cfc053972d23dc3c61df48c8054340a7eaa0853975bafe280"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_parrying_dagger.json"
+hash = "76d86f772179c5b6503fa47210fe0b16ba66f74279d17ca1f9632a635315634a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_pike.json"
+hash = "e1e619ac293803c47c1ec6c4ad265dab855de181e9d2e8a3cd5f9d3eea15913f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_quarterstaff.json"
+hash = "174d59825f14fc24993fee2afdcf68ffcfaaef854a197c25c5bf7e80b6b84e2d"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_rapier.json"
+hash = "73f79cfa8c0bb316592243e99c86ce6f4524a7e3194f3abc5407498d75b7f8c9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_saber.json"
+hash = "e17f94441b611e7e892cbef558edda85da1469977ad2d6132a25c2f8e4b80a3e"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_scythe.json"
+hash = "0fd746e9813d22877e07f2aa05a6ab7c09b2f29567b880ab656f03551d0c465b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_spear.json"
+hash = "36d03c797e7b3bb1d0e18e57c611e889576dc7a06f25388809395150fb920761"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_throwing_knife.json"
+hash = "41a725b10a17a7266fdf349392f09f9dd54b67a34852410a3a30508225c3f533"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_tomahawk.json"
+hash = "76d86f772179c5b6503fa47210fe0b16ba66f74279d17ca1f9632a635315634a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_warhammer.json"
+hash = "220b0cfe13b0ca5d42703d2ef61d4e9139ae08278cd98b6e523bfb451551d016"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_battle_hammer.json"
+hash = "6c41d01af47d2d8f9263f46aeb6a1372fe57aa37ce72fa6f67903fcca3d92bdc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_battleaxe.json"
+hash = "eadf87505785d11dc0348b5d3149937f43caf7b9ff8f14a09476874a47922b11"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_boomerang.json"
+hash = "3d62c462b66478ebbf46cec764a3e8112d38facf8035582e705ddf9d7c7b5965"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_dagger.json"
+hash = "d0f9fe74aa59d7a9537021d45f96259de8bc937f28a8648669606b95e0d11f19"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_flanged_mace.json"
+hash = "75b3373b41a8b7ba185ccd1b1737c35e43e9493e4c6d535bf86e53cbcdb4ad92"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_glaive.json"
+hash = "9371b901a68f36e6c804fed7f1fcfbe625c8556d6d9d1f125df3552cf67ce83e"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_greatsword.json"
+hash = "8d94f5e8c100c996332c4f9d02e00f2fed517bea026e04dcffdac91383d50ce4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_halberd.json"
+hash = "714492cf8039fb05ea31a3cca7db7e0f34f00a962a34d07db87229a443c82163"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_javelin.json"
+hash = "39375664a5d57efe35f2cd2f1d2486f06700da083a7504d4890e70d96da40c36"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_katana.json"
+hash = "855bc31f606d5f961b2d921dca979fa7e9c49d86f6a9bb6ee8094b8e8979a610"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_lance.json"
+hash = "564befd3cc02635a16542ed1f3fc6f02081e25eebe3dd79520142008c5b2e69e"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_longsword.json"
+hash = "8f2d0ca80125f34fc87ed128d6336fd866a053856e09710dcc2a653b265ad215"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_parrying_dagger.json"
+hash = "48688117325a9e5db28922eeea7b5d1495bd207a4cd5ce45912d20c5f609033f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_pike.json"
+hash = "51d29400b6cca8ec229695b6452dbe34308ba56a79c7431478cc61ea773a19fd"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_quarterstaff.json"
+hash = "37e642d16fe4cd89bb15277bc499b9a185b2be08b8f41a1283e346d9e4db6681"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_rapier.json"
+hash = "7973d75ead85ee131385c967cea758ad151f412a333286729f91bbf7b05d8c8e"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_saber.json"
+hash = "260e87994b1b811522cceeddc39b2d586ce73f4acc1a8b535b935b1d30850232"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_scythe.json"
+hash = "06a3ad1c75ab23620c0c0e93835116d015c3c54a026d761c386ff84a2e8e0c98"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_spear.json"
+hash = "08cd56c2393aa84277944ed5304f345cd4d0e9430cb949212485eda0ff2a494f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_throwing_knife.json"
+hash = "dfe11e5fd323ec835ccaaa9aeecf7bdfe401b1fc1435c5db54937e155277db73"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_tomahawk.json"
+hash = "48688117325a9e5db28922eeea7b5d1495bd207a4cd5ce45912d20c5f609033f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_warhammer.json"
+hash = "c0953d74645c1058a1ad0b5e889e20e0f39a1f07df3a4b51dc42ce3c44d4fa55"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_battle_hammer.json"
+hash = "d060b9c8c00412dad57344ebb3119dba848eb611e4a76d2805f0704f35ec0e73"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_battleaxe.json"
+hash = "6db5b75ed71ecef554431c0b31e9d0bb2591861a22b9e04e0336d9e482dd3858"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_boomerang.json"
+hash = "2afe85a8a9f0314bc6c6a4726e73b0155e452f7a74b99a4444be54a5f60eb34f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_dagger.json"
+hash = "36d796a22d1fceafa4fb1ef220a811029bcad4fea6d71b1fc8f6b641be576787"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_flanged_mace.json"
+hash = "4538a45874762c5b03ec9920c8c3ab9f452a2b235d3fa0fea1369b3bdf47ba1e"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_glaive.json"
+hash = "264df1d47b33b4fc5a01d60f704d814e38210e4e7846bd36768a528fe94f07d9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_greatsword.json"
+hash = "7bcf03af95ec05459369608fd9029c5577878e66e5967eb2c40667ed0638fb29"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_halberd.json"
+hash = "3a7bfc59a38bb1979e843750d7fa6bb7d5b2ee43b8828cec5eb7466501226a02"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_javelin.json"
+hash = "f708f91b48f5312ef814319a9d273328a1f121209648b141299c3a3a5a230cdf"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_katana.json"
+hash = "34b11cd794123f3a786cdedea3d75bee28563ef9db863c05a988d6d99786bd8b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_lance.json"
+hash = "25e8d3119f3fdf96f395378e3be24d213819748d382a842bfaae63ba63713c7b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_longsword.json"
+hash = "ddc778edfbbce5bc669117538e0336dd7cacc73222f01ba6d45f349c755fa143"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_parrying_dagger.json"
+hash = "2afe85a8a9f0314bc6c6a4726e73b0155e452f7a74b99a4444be54a5f60eb34f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_pike.json"
+hash = "574c79f6a3161f62a90aa3541d289760ff2e109d9bddee7245c7db8de23f03b9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_quarterstaff.json"
+hash = "303b88dac7afe9b43f0f3546318a24d2e7718b81e1fd208bbcdc68507f2e12ce"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_rapier.json"
+hash = "753f0d556b83bbc6200cd03695467fa0cdc9a46089e52f5b8d4d1426c9365f8d"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_saber.json"
+hash = "124c6af99bb32e5fb8159399f41c479582ac9880949de3863aa7829279246092"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_scythe.json"
+hash = "4d1f75b88cbd43371a74af611d52343da387e3826b797aa0fb1645a28f0a2e8b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_spear.json"
+hash = "c3997da66764b86bc2d4772223009364331608861318926bb78f059556d27d76"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_throwing_knife.json"
+hash = "a8b4aa666f9f2e6321734fa5f54eb8dc397f586b8a2ae92e69fde97190ba2b16"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_tomahawk.json"
+hash = "2afe85a8a9f0314bc6c6a4726e73b0155e452f7a74b99a4444be54a5f60eb34f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/stone_warhammer.json"
+hash = "da0ff9068fca89fdb9d7aa82d0fe33a0601628ffc3f5c34407f7e04bc6cf8db8"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/studded_cestus.json"
+hash = "afc153940094b0c2c1090a7b1a7aae9a53c03815c23e36201d42ac7591b81f56"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/studded_club.json"
+hash = "841796f940eaf7e85b136f3f9e397ff86b187b0bccf68b4215b20a616e47c6ef"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_battle_hammer.json"
+hash = "d060b9c8c00412dad57344ebb3119dba848eb611e4a76d2805f0704f35ec0e73"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_battleaxe.json"
+hash = "6db5b75ed71ecef554431c0b31e9d0bb2591861a22b9e04e0336d9e482dd3858"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_boomerang.json"
+hash = "2afe85a8a9f0314bc6c6a4726e73b0155e452f7a74b99a4444be54a5f60eb34f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_club.json"
+hash = "04f2467649d2db5ee18d5303b82e5f3029a0018d46e494afd5be2b022fe7b978"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_dagger.json"
+hash = "da813799be42fe1da7b1f4f6aa60455c8f15cb44da2edae73854007289be252a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_flanged_mace.json"
+hash = "4538a45874762c5b03ec9920c8c3ab9f452a2b235d3fa0fea1369b3bdf47ba1e"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_glaive.json"
+hash = "264df1d47b33b4fc5a01d60f704d814e38210e4e7846bd36768a528fe94f07d9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_greatsword.json"
+hash = "574edb92d8035daf6c9b13612fb6f7b15e5de081fdf4d63864610fd02d02d22d"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_halberd.json"
+hash = "3a7bfc59a38bb1979e843750d7fa6bb7d5b2ee43b8828cec5eb7466501226a02"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_javelin.json"
+hash = "f708f91b48f5312ef814319a9d273328a1f121209648b141299c3a3a5a230cdf"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_katana.json"
+hash = "f95d8d383f0ce39cddee1e34c0f3835b0397ff35de94f15f83937b88bee5bfee"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_lance.json"
+hash = "25e8d3119f3fdf96f395378e3be24d213819748d382a842bfaae63ba63713c7b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_longsword.json"
+hash = "ddc778edfbbce5bc669117538e0336dd7cacc73222f01ba6d45f349c755fa143"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_parrying_dagger.json"
+hash = "2afe85a8a9f0314bc6c6a4726e73b0155e452f7a74b99a4444be54a5f60eb34f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_pike.json"
+hash = "574c79f6a3161f62a90aa3541d289760ff2e109d9bddee7245c7db8de23f03b9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_quarterstaff.json"
+hash = "303b88dac7afe9b43f0f3546318a24d2e7718b81e1fd208bbcdc68507f2e12ce"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_rapier.json"
+hash = "753f0d556b83bbc6200cd03695467fa0cdc9a46089e52f5b8d4d1426c9365f8d"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_saber.json"
+hash = "124c6af99bb32e5fb8159399f41c479582ac9880949de3863aa7829279246092"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_scythe.json"
+hash = "4d1f75b88cbd43371a74af611d52343da387e3826b797aa0fb1645a28f0a2e8b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_spear.json"
+hash = "c3997da66764b86bc2d4772223009364331608861318926bb78f059556d27d76"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_throwing_knife.json"
+hash = "a8b4aa666f9f2e6321734fa5f54eb8dc397f586b8a2ae92e69fde97190ba2b16"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_tomahawk.json"
+hash = "2afe85a8a9f0314bc6c6a4726e73b0155e452f7a74b99a4444be54a5f60eb34f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_warhammer.json"
+hash = "da0ff9068fca89fdb9d7aa82d0fe33a0601628ffc3f5c34407f7e04bc6cf8db8"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/loot_tables/inject/chests/end_city_treasure.json"
+hash = "d8719b0b8b84d09924499f6f838084b698b83a9dd947a8c5dfafe3b37515c83b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/loot_tables/inject/chests/village/village_fletcher.json"
+hash = "d3db195fa37211fecbc3dd2a6d9f038533c40f024e1c241d4dc689e1cdd20404"
+
+[[files]]
 file = "kubejs/server_scripts/example.js"
 hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
+
+[[files]]
+file = "kubejs/server_scripts/nymc_spartan.js"
+hash = "ec9842c240ed7857d9b7c78f857d3c178e44861c834c19b1f52e485b2836b291"
 
 [[files]]
 file = "kubejs/server_scripts/nymc_vanilla_bow.js"
@@ -168,7 +1008,7 @@ hash = "7007bac466672a40a63a8ba90ca4d2db05431a62514a2afbcd094a2c15ffd9c2"
 
 [[files]]
 file = "kubejs/startup_scripts/nymc_weapon_balance.js"
-hash = "66460c465b8e06c5c2c16f0538b98f8440a4cfc3f5edddb5394f09a08f61a170"
+hash = "0a7b3e3ded47790f4c62c70ce203770684766cbd237c3075847c2be368b0b6d9"
 
 [[files]]
 file = "mods/ae2.pw.toml"
@@ -863,6 +1703,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "0be4976227df8e261fd362889bf8e85b93e224d1b1c3cd2a11b73a9de3b64083"
+metafile = true
+
+[[files]]
+file = "mods/spartan-weaponry.pw.toml"
+hash = "2245f3d120ab366a525dd63f07d83bcb879a410fe973db60c189d24395212279"
 metafile = true
 
 [[files]]

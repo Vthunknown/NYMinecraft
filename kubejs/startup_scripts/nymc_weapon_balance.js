@@ -5,6 +5,8 @@
 //   огнестрел — до ~0,8 в корпус (очередь без перезарядок), ~1,3 при попаданиях в голову (патроны от технаря);
 //   луки и арбалеты — ~0,65–0,7, но урон собран в одном выстреле (~22 на алмазном луке),
 //     60% урона стрелы игнорирует броню, скрытный выстрел ×2 по мобу без цели (кроме боссов);
+//   тяжёлые арбалеты Spartan — свой множитель (болт и так бьёт сильно) и 75% пробития;
+//   метательное оружие Spartan (ножи, томагавки, дротики, бумеранги) — своя категория;
 //   заклинания — без изменений (рывки урона, ограниченные маной).
 // Против игроков множители не действуют. Лимит урона по боссам (nymc_boss_caps.js) применяется после множителей.
 //
@@ -29,6 +31,8 @@
     melee: 1.5,    // ближний бой: мечи, топоры, всё оружие Epic Fight
     bow: 3.5,      // стрелы из луков (Archery Expansion и прочие)
     crossbow: 2.5, // болты и стрелы из арбалетов: у ванильного арбалета база выше, чем у лука того же уровня
+    heavy_crossbow: 1.1, // тяжёлые арбалеты Spartan: болт без множителя уже ~16–25
+    thrown: 1.5,   // метательное оружие Spartan в броске (в руке это ближний бой)
     spell: 1.0,    // заклинания Iron's Spells
     other: 1.0,    // всё остальное от игрока (поджог, взрывы, питомцы и т. п.)
   }
@@ -39,6 +43,7 @@
 
   // Луки и арбалеты
   const ARROW_ARMOR_PIERCE = 0.60    // доля урона стрелы, которая игнорирует броню
+  const HEAVY_CROSSBOW_ARMOR_PIERCE = 0.75 // то же для тяжёлых арбалетов Spartan (своё пробитие болтов обнулено в конфиге Spartan)
   const PIERCE_PER_LEVEL = 0.05      // +5% пробития за уровень: «Раскалывание» (Archery Expansion) на луке, «Пронзание» на арбалете
   const ARROW_ARMOR_PIERCE_MAX = 0.90
   const STEALTH_MULT = 2.0           // скрытный выстрел: стрела по мобу, у которого нет цели (боссы не в счёт)
@@ -192,8 +197,9 @@
     resolveEnchants()
     const weaponId = itemIdOf(weapon)
     const isCrossbow = weaponId.indexOf('crossbow') >= 0
+    const base = weaponId.indexOf('heavy_crossbow') >= 0 ? HEAVY_CROSSBOW_ARMOR_PIERCE : ARROW_ARMOR_PIERCE
     const level = enchantLevel(weapon, isCrossbow ? piercingEnchant : shatteringEnchant)
-    return { pierce: Math.min(ARROW_ARMOR_PIERCE_MAX, ARROW_ARMOR_PIERCE + PIERCE_PER_LEVEL * level), weaponId: weaponId }
+    return { pierce: Math.min(ARROW_ARMOR_PIERCE_MAX, base + PIERCE_PER_LEVEL * level), weaponId: weaponId }
   }
 
   // Доля урона, которая остаётся после брони (ванильная формула)
@@ -223,6 +229,7 @@
     const d = directId.toLowerCase()
     if (d.indexOf('tacz:') === 0 || m.indexOf('tacz') >= 0 || m.indexOf('bullet') >= 0) return 'bullet'
     if (d.indexOf('irons_spellbooks:') === 0 || m.indexOf('irons') >= 0 || m.indexOf('magic') >= 0 || m.indexOf('spell') >= 0) return 'spell'
+    if (d.indexOf('spartanweaponry:') === 0 && (d.indexOf('throw') >= 0 || d.indexOf('tomahawk') >= 0 || d.indexOf('javelin') >= 0 || d.indexOf('boomerang') >= 0)) return 'thrown'
     if (d.indexOf('arrow') >= 0 || d.indexOf('bolt') >= 0 || d === 'minecraft:trident' || m === 'arrow' || m === 'trident') return 'arrow'
     if (directIsAttacker || m === 'player') return 'melee'
     return 'other'
@@ -280,7 +287,8 @@
     let mult = MULTIPLIERS[category]
     if (category === 'arrow') {
       ap = armorPierceOf(attacker)
-      mult = ap.weaponId.indexOf('crossbow') >= 0 ? MULTIPLIERS.crossbow : MULTIPLIERS.bow
+      mult = ap.weaponId.indexOf('heavy_crossbow') >= 0 ? MULTIPLIERS.heavy_crossbow
+        : ap.weaponId.indexOf('crossbow') >= 0 ? MULTIPLIERS.crossbow : MULTIPLIERS.bow
     }
     let amount = before * mult
 
@@ -311,8 +319,10 @@
   ForgeEvents.onEvent('net.minecraftforge.event.server.ServerStartedEvent', event => {
     resolveEnchants()
     console.info('[nymc_weapon_balance] Множители: ближний ' + MULTIPLIERS.melee + ', луки ' + MULTIPLIERS.bow + ', арбалеты ' + MULTIPLIERS.crossbow +
+      ', тяжёлые арбалеты ' + MULTIPLIERS.heavy_crossbow + ', метательное ' + MULTIPLIERS.thrown +
       ', заклинания ' + MULTIPLIERS.spell + ', прочее ' + MULTIPLIERS.other + '; пули: база ×' + BULLET_BASE_MULT +
-      ', голова ×' + BULLET_HEADSHOT_MULT + '; пробитие стрел ' + Math.round(ARROW_ARMOR_PIERCE * 100) + '%')
+      ', голова ×' + BULLET_HEADSHOT_MULT + '; пробитие стрел ' + Math.round(ARROW_ARMOR_PIERCE * 100) + '%, болтов тяжёлого арбалета ' +
+      Math.round(HEAVY_CROSSBOW_ARMOR_PIERCE * 100) + '%')
     if (DEBUG_DAMAGE_LOG) console.warn('[nymc_weapon_balance] ТЕСТ: включён журнал урона')
   })
 })()
