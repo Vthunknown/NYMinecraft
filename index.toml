@@ -51,7 +51,7 @@ hash = "2722cbf65014fdd4a185ea639b6fbbe483c28dffd0edf2dad67589d683555670"
 
 [[files]]
 file = "config/fallingtree.json"
-hash = "d84ad8e9ea60d7677ee8e9fdbc893b095af0dc98c11a75ad3a53f11cb4302ac9"
+hash = "c82fd230e4c2d4ed41e6b33535b9c621db8d5d1fc83e055d81811e0a9943d668"
 
 [[files]]
 file = "config/irons_spellbooks-client.toml"
@@ -61,6 +61,10 @@ preserve = true
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "bdef313e56b1d978eb44e216d87110766de4ccc30b0e240b1a53c9b01b19b4b2"
+
+[[files]]
+file = "defaultconfigs/createbigcannons-server.toml"
+hash = "a17b04817cd23bfcd7bb8bba339e401c80e7bc6bda708cb1a45a030ef4027910"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -85,6 +89,10 @@ hash = "4414bd2f163d29a2819211495c08310314c01c1c05cae0fe629ea5872cb7232e"
 [[files]]
 file = "kubejs/client_scripts/example.js"
 hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
+
+[[files]]
+file = "kubejs/client_scripts/nymc_hide_items.js"
+hash = "9e7ad0b72233716672cd2554f71aea70c9ea4feff082389a4a20b11535adbdce"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -147,8 +155,20 @@ file = "kubejs/server_scripts/example.js"
 hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
 
 [[files]]
+file = "kubejs/server_scripts/nymc_vanilla_bow.js"
+hash = "121c3bf0747d09c5743336dcbfb010477527a467427eba1fd3fb87b009600b0c"
+
+[[files]]
 file = "kubejs/startup_scripts/example.js"
 hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
+
+[[files]]
+file = "kubejs/startup_scripts/nymc_boss_caps.js"
+hash = "7007bac466672a40a63a8ba90ca4d2db05431a62514a2afbcd094a2c15ffd9c2"
+
+[[files]]
+file = "kubejs/startup_scripts/nymc_weapon_balance.js"
+hash = "66460c465b8e06c5c2c16f0538b98f8440a4cfc3f5edddb5394f09a08f61a170"
 
 [[files]]
 file = "mods/ae2.pw.toml"
@@ -208,6 +228,11 @@ metafile = true
 [[files]]
 file = "mods/aquamirae.pw.toml"
 hash = "06b092a2824351d259cc3d8dd2a32402fffcd02c8faf2b9939e676faee66f66a"
+metafile = true
+
+[[files]]
+file = "mods/archery-expansion.pw.toml"
+hash = "9793369a7a1d9c982500edde50e440adfbcc59a7e65b7af1dbba91e9dc143e9d"
 metafile = true
 
 [[files]]
@@ -318,6 +343,11 @@ metafile = true
 [[files]]
 file = "mods/create-alexs-mobs.pw.toml"
 hash = "66dcb1a6c9335ad9448fee6a464cd6b10dfc4db3ad754b511c3915804a8aa337"
+metafile = true
+
+[[files]]
+file = "mods/create-big-cannons.pw.toml"
+hash = "fdb42bca6a22d299313dc072a7f86523140614e8dc478636c872e2310d10dfbe"
 metafile = true
 
 [[files]]
@@ -763,6 +793,11 @@ metafile = true
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
 hash = "1e29140604c9942ea3ed2fb860d9b8e9d003e48a94c817d81c8e85137d0f06c5"
+metafile = true
+
+[[files]]
+file = "mods/ritchies-projectile-library.pw.toml"
+hash = "ad017c00411e9b3cd8564d913e568636270ffd50bc822c919ce1db5ba0dbe126"
 metafile = true
 
 [[files]]
